@@ -1,11 +1,11 @@
 public class ArrayStack<E> implements Stack<E> {
     Array<E> arr;
 
-    public void ArrayStack(int capacity) {
+    public ArrayStack(int capacity) {
         arr = new Array<>(capacity);
     }
 
-    public void ArrayStack() {
+    public ArrayStack() {
         arr = new Array<>();
     }
 
