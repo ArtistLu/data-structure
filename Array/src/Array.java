@@ -98,7 +98,7 @@ public class Array<E> {
         size--;
         data[size] = null;
 
-        //当减少到四分之一在缩容
+        //当减少到四分之一
         if (size == data.length / 4 && data.length / 2 != 0) {
             resize(data.length / 2);
         }
